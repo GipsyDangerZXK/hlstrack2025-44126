@@ -1,0 +1,226 @@
+<ENTRY>
+{
+ "thisFile": "E:/CNN+FPGA\\jiasu\\sha256\\test_hmac_sha256\\test_hmac_sha256.hlsrun_cosim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "10/23/25 16:44:48",
+ "timestampMillis": "1761209088818",
+ "buildStep": {
+  "cmdId": "95b56948-5ce1-4783-86dc-202f4a33fa97",
+  "name": "vitis-run",
+  "logFile": "E:/CNN+FPGA\\jiasu\\sha256\\test_hmac_sha256\\logs\\test_hmac_sha256.steps.log",
+  "commandLine": "F:/Xilinx2024/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --cosim --config E:\\CNN+FPGA\\jiasu\\sha256\\hls_config.cfg --work_dir test_hmac_sha256 ",
+  "args": [
+   "--mode",
+   "hls",
+   "--cosim",
+   "--config",
+   "E:\\CNN+FPGA\\jiasu\\sha256\\hls_config.cfg",
+   "--work_dir",
+   "test_hmac_sha256"
+  ],
+  "iniFiles": [],
+  "cwd": "E:\\CNN+FPGA\\jiasu\\sha256"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "10/23/25 16:44:48",
+ "timestampMillis": "1761209088818",
+ "status": {
+  "cmdId": "95b56948-5ce1-4783-86dc-202f4a33fa97",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "10/23/25 16:45:02",
+ "timestampMillis": "1761209102172",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_RTL_COSIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "test_hmac_sha256",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "E:/CNN+FPGA\\jiasu\\sha256\\test.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "10/23/25 16:45:02",
+ "timestampMillis": "1761209102174",
+ "buildStep": {
+  "cmdId": "8cae6717-d792-4b59-a339-5ef2a2d86923",
+  "name": "",
+  "logFile": "E:/CNN+FPGA\\jiasu\\sha256\\test_hmac_sha256\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "E:\\CNN+FPGA\\jiasu\\sha256"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "10/23/25 16:45:02",
+ "timestampMillis": "1761209102174",
+ "status": {
+  "cmdId": "8cae6717-d792-4b59-a339-5ef2a2d86923",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/23/25 16:45:02",
+ "timestampMillis": "1761209102175",
+ "report": {
+  "path": "E:/CNN+FPGA\\jiasu\\sha256\\test_hmac_sha256\\hls\\sim\\report\\test_hmac_sha256_cosim.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_COSIMULATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/23/25 16:45:02",
+ "timestampMillis": "1761209102176",
+ "report": {
+  "path": "E:/CNN+FPGA\\jiasu\\sha256\\test_hmac_sha256\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/23/25 16:45:02",
+ "timestampMillis": "1761209102177",
+ "report": {
+  "path": "E:/CNN+FPGA\\jiasu\\sha256\\test_hmac_sha256\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH_COSIM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/23/25 16:45:02",
+ "timestampMillis": "1761209102178",
+ "report": {
+  "path": "E:/CNN+FPGA\\jiasu\\sha256\\test_hmac_sha256\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_TIMELINE_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/23/25 16:45:02",
+ "timestampMillis": "1761209102178",
+ "report": {
+  "path": "E:/CNN+FPGA\\jiasu\\sha256\\test_hmac_sha256\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_WAVE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "10/23/25 16:48:29",
+ "timestampMillis": "1761209309746",
+ "status": {
+  "cmdId": "8cae6717-d792-4b59-a339-5ef2a2d86923",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "10/23/25 16:48:29",
+ "timestampMillis": "1761209309940",
+ "status": {
+  "cmdId": "95b56948-5ce1-4783-86dc-202f4a33fa97",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/23/25 16:48:29",
+ "timestampMillis": "1761209309940",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/23/25 16:48:29",
+ "timestampMillis": "1761209309941",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
